@@ -18,25 +18,22 @@
     background-color: var(--Primary-white);
 }
 
-.white-text {
-    color: var(--Secondary-white);
-}
-
-.black_text_1 {
-    color: var(--Primary-black);
-}
-
-.black_text_2 {
-    color: var(--Secondary-black-black);
-}
-
-.black_text_3 {
-    color: var(--Tertiary-black-black);
-}
 
 .nav-link {
     color: var(--Tertiary-black);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     font-family: var(--Font-poppins);
+}
+
+.container-home-title {
+    min-height: 600px;
+    height: calc(100vh - 53px);
+    max-height: 1080px;
+}
+
+.home-title {
+    font-size: 80px;
+    font-family: var(--Font-sacramento);
+    text-align: center;
 }
