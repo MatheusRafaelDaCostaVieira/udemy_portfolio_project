@@ -18,6 +18,12 @@
     background-color: var(--Primary-white);
 }
 
+.h2-style {
+    color: var(--Primary-black);
+    font-size: 70px;
+    font-family: var(--Font-sacramento);
+    text-align: center;
+}
 
 .nav-link {
     color: var(--Tertiary-black);
@@ -32,8 +38,9 @@
     max-height: 1080px;
 }
 
-.home-title {
-    font-size: 80px;
+.home-title { 
+    color: var(--Primary-black);
+    font-size: 85px;
     font-family: var(--Font-sacramento);
     text-align: center;
 }
@@ -42,14 +49,62 @@
     width: 100%;
 }
 
-.about-h2 {
-    font-size: 65px;
-    font-family: var(--Font-sacramento);
-    text-align: center;
-}
-
 .about-paragraph {
     color: var(--Tertiary-black);
     font-family: var(--Font-poppins);
     font-size: 16px;
+}
+
+.skills-h3 {
+    color: var(--Tertiary-black-black);
+    font-size: 35px;
+    font-family: var(--Font-poppins);
+}
+
+.skills-item > p {
+    color: var(--Tertiary-black);
+    font-size: 15px;
+    font-family: var(--Font-poppins);
+}
+
+.card {
+    height: 200px;
+    position: relative;
+    border: none;
+    padding: 0;
+}
+
+.card img {
+    transition: 500ms;
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+
+.pc-gradient {
+    content: '';
+    background-color: var(--Secondary-black);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    transition: 300ms;
+}
+
+.card:hover img {
+    scale: 1.1;
+}
+
+.card:hover > .pc-gradient {
+    opacity: .4;
+}
+
+.pc-gradient > p {
+    color: var(--Secondary-white);
+    font-family: var(--Font-poppins);
+    font-size: 16px;
+    margin: 0;
 }
