@@ -37,3 +37,19 @@
     font-family: var(--Font-sacramento);
     text-align: center;
 }
+
+.about-photo {
+    width: 100%;
+}
+
+.about-h2 {
+    font-size: 65px;
+    font-family: var(--Font-sacramento);
+    text-align: center;
+}
+
+.about-paragraph {
+    color: var(--Tertiary-black);
+    font-family: var(--Font-poppins);
+    font-size: 16px;
+}
