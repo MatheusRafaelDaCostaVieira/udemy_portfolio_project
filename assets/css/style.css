@@ -46,6 +46,10 @@ body {
     text-align: center;
 }
 
+.about-card {
+    background-color: var(--Secondary-white);
+}
+
 .about-photo {
     width: 100%;
 }
@@ -54,6 +58,10 @@ body {
     color: var(--Tertiary-black);
     font-family: var(--Font-poppins);
     font-size: 16px;
+}
+
+.skill-card {
+    background-color: var(--Secondary-white);
 }
 
 .skills-h3 {
