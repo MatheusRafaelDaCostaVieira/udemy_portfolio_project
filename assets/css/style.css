@@ -15,7 +15,7 @@
     padding: 0;
 }
 
-.white-bg {
+body {
     background-color: var(--Primary-white);
 }
 
