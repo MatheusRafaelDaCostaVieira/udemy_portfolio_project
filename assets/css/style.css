@@ -41,7 +41,7 @@ body {
 
 .home-title { 
     color: var(--Primary-black);
-    font-size: 85px;
+    font-size: 75px;
     font-family: var(--Font-sacramento);
     text-align: center;
 }
