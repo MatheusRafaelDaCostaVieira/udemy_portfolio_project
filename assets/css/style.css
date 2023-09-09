@@ -151,3 +151,29 @@ body {
     width: 100px;
     border: none;
 }
+
+#footer {
+    background-color: var(--Primary-black);
+    color: var(--Secondary-white);
+}
+
+.footer-title {
+    font-size: 50px;
+    font-family: var(--Font-sacramento);
+}
+
+.footer-copyright {
+    font-size: 12px;
+    font-family: var(--Font-poppins);
+}
+
+.footer-icon {
+    font-size: 16px;
+    color: var(--Secondary-white);
+    text-decoration: none;
+    transition: 250ms;
+}
+
+.footer-icon:hover {
+    color: var(--Primary-white);
+}
