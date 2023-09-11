@@ -33,6 +33,11 @@ body {
     font-family: var(--Font-poppins);
 }
 
+.menu-icon {
+    font-size: 35px;
+    display: none;
+}
+
 .container-home-title {
     min-height: 600px;
     height: calc(100vh - 53px);
