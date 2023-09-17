@@ -4,6 +4,7 @@
     --Tertiary-black: #332C39;
     --Primary-white: #E8E8E8;
     --Secondary-white: #EEEDED;
+    --Tertiary-white: #F1EFEF;  
     --Card-gradient: rgba(52, 57, 62, .6);
     --Font-sacramento: 'Sacramento', cursive;
     --Font-poppins: 'Poppins', sans-serif;
@@ -38,14 +39,10 @@ body {
     display: none;
 }
 
-.container-home-title,
-#about,
-#skills,
-#projects,
-#contact {
+.container-home-title {
     min-height: 600px;
     height: calc(100vh - 53px);
-    max-height: 900px;
+    max-height: 1080px;
 }
 
 .home-title { 
@@ -53,6 +50,10 @@ body {
     font-size: 75px;
     font-family: var(--Font-sacramento);
     text-align: center;
+}
+
+#about {
+    background-color: var(--Tertiary-white); 
 }
 
 .about-card {
@@ -83,6 +84,10 @@ body {
     color: var(--Tertiary-black);
     font-size: 15px;
     font-family: var(--Font-poppins);
+}
+
+#projects {
+    background-color: var(--Tertiary-white); 
 }
 
 .card {
