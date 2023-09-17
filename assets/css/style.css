@@ -25,7 +25,7 @@ body {
     font-size: 70px;
     font-family: var(--Font-sacramento);
     text-align: center;
-    margin: 0 0 4rem 0;
+    margin: 0 0 3.5rem 0;
 }
 
 .nav-link {
@@ -57,18 +57,29 @@ body {
     background-color: var(--Tertiary-white); 
 }
 
+#about .h2-style {
+    margin-bottom: 1.5rem;
+}
+
 .about-card {
     background-color: var(--Secondary-white);
+    height: 550px;
+}
+
+.about-photo-case {
+    height: 100%
 }
 
 .about-photo {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .about-paragraph {
     color: var(--Tertiary-black);
     font-family: var(--Font-poppins);
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .skill-card {
