@@ -25,6 +25,7 @@ body {
     font-size: 70px;
     font-family: var(--Font-sacramento);
     text-align: center;
+    margin: 0 0 5rem 0;
 }
 
 .nav-link {
@@ -47,7 +48,7 @@ body {
 
 .home-title { 
     color: var(--Primary-black);
-    font-size: 75px;
+    font-size: 65px;
     font-family: var(--Font-sacramento);
     text-align: center;
 }
@@ -172,13 +173,15 @@ body {
 }
 
 .footer-title {
-    font-size: 50px;
+    font-size: 40px;
     font-family: var(--Font-sacramento);
+    margin: 0;
 }
 
 .footer-copyright {
     font-size: 12px;
     font-family: var(--Font-poppins);
+    margin: 0;
 }
 
 .footer-icon {
