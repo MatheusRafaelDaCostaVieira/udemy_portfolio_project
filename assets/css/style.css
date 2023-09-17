@@ -25,7 +25,7 @@ body {
     font-size: 70px;
     font-family: var(--Font-sacramento);
     text-align: center;
-    margin: 0 0 5rem 0;
+    margin: 0 0 4rem 0;
 }
 
 .nav-link {
@@ -73,12 +73,14 @@ body {
 
 .skill-card {
     background-color: var(--Secondary-white);
+    padding: 2.2rem 1.3rem 5rem;
 }
 
 .skills-h3 {
     color: var(--Tertiary-black-black);
     font-size: 35px;
     font-family: var(--Font-poppins);
+    margin-bottom: 1.8rem;
 }
 
 .skills-item > p {
