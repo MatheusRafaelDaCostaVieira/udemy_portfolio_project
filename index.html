@@ -181,8 +181,8 @@
       </div>
     </footer>
     <!-- TOGGLER -->
-    <div>
-      <button></button>
+    <div class="menu-button-container">
+      <button class="menu-button" onclick="openMenu()"><i class="bi bi-list"></i></button>
     </div>
     <!-- MENU -->
     <section id="menu">
@@ -193,12 +193,12 @@
           <li class="nav-item mb-5"><a href="#skills" class="nav-link d-inline">Habilities</a></li>
           <li class="nav-item mb-5"><a href="#projects" class="nav-link d-inline">Projects</a></li>
           <li class="nav-item mb-5"><a href="#contact" class="nav-link d-inline">Contact</a></li>
-          <li class="nav-item"><button>Close menu</button></li>
+          <li class="nav-item"><button onclick="closeMenu()">Close menu</button></li>
         </ul>   
       </div>
     </section>
     <!-- JS CODE -->
-    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/app.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
