@@ -1,10 +1,9 @@
 :root {
-    --Primary-black: #212427;
-    --Secondary-black: #34393E;
-    --Tertiary-black: #332C39;
-    --Primary-white: #E8E8E8;
-    --Secondary-white: #F1EFEF;
-    --Tertiary-white: #EEEDED; 
+    --Primary-black: 33, 36, 39;
+    --Secondary-black: 51, 44, 57;
+    --Primary-white: 232, 232, 232;
+    --Secondary-white: 241, 239, 239;
+    --Tertiary-white: 238, 237, 237; 
     --Card-gradient: rgba(52, 57, 62, .6);
     --Font-sacramento: 'Sacramento', cursive;
     --Font-poppins: 'Poppins', sans-serif;
@@ -17,12 +16,12 @@
 }
 
 body {
-    background-color: var(--Primary-white);
+    background-color: rgb(var(--Primary-white));
     position: relative;
 }
 
 .h2-style {
-    color: var(--Primary-black);
+    color: rgb(var(--Primary-black));
     font-size: 70px;
     font-family: var(--Font-sacramento);
     text-align: center;
@@ -30,7 +29,7 @@ body {
 }
 
 .nav-link {
-    color: var(--Tertiary-black);
+    color: rgb(var(--Secondary-black));
     font-size: 13px;
     font-weight: 400;
     font-family: var(--Font-poppins);
@@ -48,14 +47,14 @@ body {
 }
 
 .home-title { 
-    color: var(--Primary-black);
+    color: rgb(var(--Primary-black));
     font-size: 65px;
     font-family: var(--Font-sacramento);
     text-align: center;
 }
 
 #about {
-    background-color: var(--Tertiary-white); 
+    background-color: rgb(var(--Tertiary-white)); 
 }
 
 #about .h2-style {
@@ -63,7 +62,7 @@ body {
 }
 
 .about-card {
-    background-color: var(--Secondary-white);
+    background-color: rgb(var(--Secondary-white));
     height: 550px;
 }
 
@@ -78,31 +77,31 @@ body {
 }
 
 .about-paragraph {
-    color: var(--Tertiary-black);
+    color: rgb(var(--Secondary-black));
     font-family: var(--Font-poppins);
     font-size: 15px;
 }
 
 .skill-card {
-    background-color: var(--Secondary-white);
+    background-color: rgb(var(--Secondary-white));
     padding: 2.2rem 1.3rem 4.5rem;
 }
 
 .skills-h3 {
-    color: var(--Tertiary-black-black);
+    color: rgb(var(--Secondary-black));
     font-size: 35px;
     font-family: var(--Font-poppins);
     margin-bottom: 1.8rem;
 }
 
 .skills-item > p {
-    color: var(--Tertiary-black);
+    color: rgb(var(--Secondary-black));
     font-size: 15px;
     font-family: var(--Font-poppins);
 }
 
 #projects {
-    background-color: var(--Tertiary-white); 
+    background-color: rgb(var(--Tertiary-white)); 
 }
 
 .card {
@@ -138,7 +137,7 @@ body {
 }
 
 .pc-gradient > p {
-    color: var(--Tertiary-white);
+    color: rgb(var(--Tertiary-white));
     font-size: 16px;
     font-family: var(--Font-poppins);
     margin-bottom: 0;
@@ -146,12 +145,12 @@ body {
 }
 
 .contact-info {
-    background-color: var(--Secondary-white);
+    background-color: rgb(var(--Secondary-white));
     padding: 3.6rem 0;
 }
 
 .contact-info-p {
-    color: var(--Tertiary-black);
+    color: rgb(var(--Secondary-black));
     font-family: var(--Font-poppins);
     font-size: 16px;
 }
@@ -163,8 +162,8 @@ body {
 .contact-input {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid var(--Tertiary-black);
-    color: var(--Tertiary-black);
+    border-bottom: 1px solid rgb(var(--Secondary-black));
+    color: rgb(var(--Secondary-black));
     font-family: var(--Font-poppins);
     font-size: 16px;
     outline: none;
@@ -172,9 +171,9 @@ body {
 }
 
 .contact-btn {
-    background-color: var(--Tertiary-black);
+    background-color: rgb(var(--Secondary-black));
     border-radius: 50px;
-    color: var(--Secondary-white);
+    color: rgb(var(--Secondary-white));
     font-family: var(--Font-poppins);
     font-size: 16px;
     height: 35px;
@@ -184,8 +183,8 @@ body {
 }
 
 #footer {
-    background-color: var(--Primary-black);
-    color: var(--Tertiary-white);
+    background-color: rgb(var(--Primary-black));
+    color: rgb(var(--Tertiary-white));
     margin-top: 4.5rem;
 }
 
@@ -203,23 +202,25 @@ body {
 
 .footer-icon {
     font-size: 16px;
-    color: var(--Tertiary-white);
+    color: rgb(var(--Tertiary-white));
     text-decoration: none;
     transition: 250ms;
 }
 
 .footer-icon:hover {
-    color: var(--Primary-white);
+    color: rgb(var(--Primary-white));
 }
 
 #menu {
-    background-color: var(--Tertiary-white);
+    background-color: rgb(var(--Tertiary-white));
     bottom: 0;
     left: 0;
     position: fixed;
-    z-index: 1;
     width: 100%;
     padding: 3rem 0;
+    z-index: 1;
+    box-shadow: 0 -4px 3px rgba(var(--Secondary-black), .25); 
+    display: none;
 }
 
 .menu-list {
