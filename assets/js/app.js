@@ -1,8 +1,8 @@
 function openMenu() {
     var menu = document.getElementById('menu')
-    menu.style.display= "block"
+    menu.classList.add("open")
 }
 function closeMenu() {
     var menu = document.getElementById('menu')
-    menu.style.display= "none"
+    menu.classList.remove("open")
 }
