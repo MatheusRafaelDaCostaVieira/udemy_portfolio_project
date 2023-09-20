@@ -4,7 +4,7 @@
     --Primary-white: 232, 232, 232;
     --Secondary-white: 241, 239, 239;
     --Tertiary-white: 238, 237, 237; 
-    --Card-gradient: rgba(52, 57, 62, .6);
+    --Quartiary-black: 52, 57, 62;
     --Font-sacramento: 'Sacramento', cursive;
     --Font-poppins: 'Poppins', sans-serif;
 }
@@ -127,7 +127,7 @@ body {
     width: 100%;
     z-index: 1;
     transition: 250ms;
-    background-color: var(--Card-gradient);
+    background-color: rgba(var(--Quartiary-black), 6);
     opacity: 0;
     text-decoration: none;
 }
@@ -220,7 +220,7 @@ body {
     padding: 3rem 0;
     z-index: 1;
     box-shadow: 0 -4px 3px rgba(var(--Secondary-black), .25); 
-    transition: .5s;
+    transition: .55s;
 }
 
 #menu.open {
@@ -233,10 +233,37 @@ body {
     padding: 0;
 }
 
+.menu-list-btn {
+    background-color: rgb(var(--Secondary-black));
+    border-radius: 50px;
+    color: rgb(var(--Secondary-white));
+    font-family: var(--Font-poppins);
+    font-size: 16px;
+    height: 35px;
+    width: 100px;
+    border: none;
+    width: 120px;
+}
+
 #button {
     position: fixed;
     right: 0;
     bottom: 0;
-    margin-right: 2.8rem;
-    margin-bottom: 2.8rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.circular-button {
+    background-color: rgb(var(--Secondary-black));
+    text-decoration: none;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+
+.circular-button > i {
+    color: rgb(var(--Secondary-white));
+    font-size: 24px;
 }
