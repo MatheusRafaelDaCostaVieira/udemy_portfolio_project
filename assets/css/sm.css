@@ -5,3 +5,11 @@
 .container-home-title {
     height: 100vh;
 }
+
+#menu {
+    display: block;
+}
+
+#button {
+    display: block;
+}
