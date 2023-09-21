@@ -35,6 +35,10 @@ body {
     font-family: var(--Font-poppins);
 }
 
+.nav-item:hover .nav-link{
+    color: rgb(var(--Secondary-black));
+}
+
 .menu-icon {
     font-size: 35px;
     display: none;
