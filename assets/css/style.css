@@ -35,8 +35,6 @@ body {
     font-family: var(--Font-poppins);
 }
 
-<<<<<<< HEAD
-=======
 .nav-item:hover .nav-link{
     color: rgb(var(--Secondary-black));
 }
@@ -46,7 +44,6 @@ body {
     display: none;
 }
 
->>>>>>> developing
 .container-home-title {
     min-height: 600px;
     height: calc(100vh - 53px);
