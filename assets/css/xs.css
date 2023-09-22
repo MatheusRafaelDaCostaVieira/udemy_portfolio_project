@@ -1,0 +1,19 @@
+.header {
+    display: none;
+}
+
+.container-home-title {
+    height: 100vh;
+}
+
+.home-title { 
+    font-size: 50px;
+}
+
+#menu {
+    display: block;
+}
+
+#button {
+    display: block;
+}
