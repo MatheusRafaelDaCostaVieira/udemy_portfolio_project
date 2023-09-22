@@ -1,0 +1,31 @@
+.h2-style {
+    font-size: 60px;
+}
+
+.header {
+    display: none;
+}
+
+.container-home-title {
+    height: 100vh;
+}
+
+.about-photo-case {
+    height: 350px;
+}
+
+.card {
+    height: 270px;
+}
+
+.footer-copyright {
+    order: 1;
+}
+
+#menu {
+    display: block;
+}
+
+#button {
+    display: block;
+}

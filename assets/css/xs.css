@@ -1,19 +1,46 @@
-.header {
-    display: none;
-}
-
-.container-home-title {
-    height: 100vh;
+.h2-style {
+    font-size: 50px;
 }
 
 .home-title { 
     font-size: 50px;
 }
 
-#menu {
-    display: block;
+.about-photo-case {
+    height: 300px;
 }
 
-#button {
-    display: block;
+.skill-card {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.skills-h3 {
+    font-size: 30px;
+}
+
+.skilla-item {
+    font-size: 13px;
+}
+
+.card {
+    height: 180px;
+}
+
+@media (400px <= width < 450px) {
+    .card {
+        height: 210px;
+    }
+}
+
+@media (450px <= width < 500px) {
+    .card {
+        height: 230px;
+    }
+}
+
+@media (500px <= width < 576px) {
+    .card {
+        height: 260px;
+    }
 }
