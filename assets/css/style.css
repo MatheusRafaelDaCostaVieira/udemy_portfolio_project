@@ -3,8 +3,9 @@
     --Secondary-black: 51, 44, 57;
     --Primary-white: 232, 232, 232;
     --Secondary-white: 241, 239, 239;
-    --Tertiary-white: 238, 237, 237; 
-    --Quartiary-black: 52, 57, 62;
+    --Tertiary-white: 238, 237, 237;
+    --Tertiary-black: 52, 57, 62;
+    --Primary-grey: 125, 124, 124;
     --Font-sacramento: 'Sacramento', cursive;
     --Font-poppins: 'Poppins', sans-serif;
 }
@@ -41,7 +42,7 @@ body {
 
 #header.scroll {
     padding: 0.3rem 0;
-    border-bottom: 1px solid rgb(var(--Primary-black));
+    border-bottom: 1px solid rgb(var(--Primary-black), .2);
 }
 
 .nav-link {
@@ -51,7 +52,13 @@ body {
     font-family: var(--Font-poppins);
 }
 
-.nav-item:hover .nav-link{
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: rgba(var(--Primary-grey));
+    background-color: transparent;
+}
+
+.nav-item:hover .nav-link {
     color: rgb(var(--Secondary-black));
 }
 
@@ -66,7 +73,7 @@ body {
     max-height: 1080px;
 }
 
-.home-title { 
+.home-title {
     color: rgb(var(--Primary-black));
     font-size: 65px;
     font-family: var(--Font-sacramento);
@@ -74,7 +81,7 @@ body {
 }
 
 #about {
-    background-color: rgb(var(--Tertiary-white)); 
+    background-color: rgb(var(--Tertiary-white));
 }
 
 #about .h2-style {
@@ -114,14 +121,14 @@ body {
     margin-bottom: 2rem;
 }
 
-.skills-item > p {
+.skills-item>p {
     color: rgb(var(--Secondary-black));
     font-size: 15px;
     font-family: var(--Font-poppins);
 }
 
 #projects {
-    background-color: rgb(var(--Tertiary-white)); 
+    background-color: rgb(var(--Tertiary-white));
 }
 
 .card {
@@ -147,16 +154,16 @@ body {
     width: 100%;
     z-index: 1;
     transition: 250ms;
-    background-color: rgba(var(--Quartiary-black), .55);
+    background-color: rgba(var(--Tertiary-black), .55);
     opacity: 0;
     text-decoration: none;
 }
 
-.card:hover > .pc-gradient {
+.card:hover>.pc-gradient {
     opacity: 1;
 }
 
-.pc-gradient > p {
+.pc-gradient>p {
     color: rgb(var(--Tertiary-white));
     font-size: 16px;
     font-family: var(--Font-poppins);
@@ -240,7 +247,7 @@ body {
     padding: 3rem 0;
     z-index: 100;
     display: none;
-    box-shadow: 0 -4px 3px rgba(var(--Secondary-black), .25); 
+    box-shadow: 0 -4px 3px rgba(var(--Secondary-black), .25);
     transition: .55s;
 }
 
@@ -286,7 +293,7 @@ body {
 }
 
 
-.circular-button > i {
+.circular-button>i {
     color: rgb(var(--Secondary-white));
     font-size: 24px;
 }
