@@ -19,7 +19,6 @@
 body {
     background-color: rgb(var(--Primary-white));
     position: relative;
-    overflow-x: hidden;
 }
 
 .h2-style {
@@ -281,6 +280,7 @@ body {
     z-index: 10;
     margin-right: 1rem;
     margin-bottom: 1rem;
+    display: none;
 }
 
 .circular-button {
@@ -296,10 +296,4 @@ body {
 .circular-button>i {
     color: rgb(var(--Secondary-white));
     font-size: 24px;
-}
-
-@media (768px <= width) {
-    #button {       
-       display: none;
-    }
 }

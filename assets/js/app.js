@@ -1,5 +1,3 @@
-AOS.init();
-
 function openMenu() {
     var menu = document.getElementById('menu')
     menu.classList.add("open")
