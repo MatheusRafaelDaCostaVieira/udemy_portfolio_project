@@ -30,6 +30,14 @@
     height: 180px;
 }
 
+.contact-info-p {
+    font-size: 13px;
+}
+
+.contact-input {
+    font-size: 13px;
+}
+
 @media (400px <= width < 450px) {
     .card {
         height: 210px;
