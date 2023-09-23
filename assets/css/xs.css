@@ -11,15 +11,14 @@
 }
 
 .skill-card {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 2.2rem 1rem 3rem;
 }
 
 .skills-h3 {
     font-size: 30px;
 }
 
-.skilla-item {
+.skills-item {
     font-size: 13px;
 }
 

@@ -95,7 +95,7 @@ body {
     color: rgb(var(--Secondary-black));
     font-size: 35px;
     font-family: var(--Font-poppins);
-    margin-bottom: 1.8rem;
+    margin-bottom: 2rem;
 }
 
 .skills-item > p {
