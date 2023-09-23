@@ -7,16 +7,16 @@ function closeMenu() {
     menu.classList.remove("open")
 }
 
-window.addEventListener("scroll", navbarAnimation)
+window.addEventListener("scroll", headerAnimation)
 
-function navbarAnimation() {
-    var navbar = document.getElementById('nav')
+function headerAnimation() {
+    var header = document.getElementById('header')
     const scroll = window.scrollY
 
     if(scroll > 0) {
-        navbar.classList.remove("scroll")
+        header.classList.add("scroll")
     }
     else {
-        navbar.classList.add("scroll")
+        header.classList.remove("scroll")
     }
 }
