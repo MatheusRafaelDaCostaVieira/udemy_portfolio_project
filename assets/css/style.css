@@ -28,6 +28,13 @@ body {
     margin: 0 0 3.5rem 0;
 }
 
+.header {
+    position: fixed;
+    display: block;
+    justify-content: center;
+    width: 100vw;
+}
+
 .nav-link {
     color: rgb(var(--Secondary-black));
     font-size: 13px;
@@ -46,7 +53,7 @@ body {
 
 .container-home-title {
     min-height: 600px;
-    height: calc(100vh - 53px);
+    height: 100vh;
     max-height: 1080px;
 }
 
