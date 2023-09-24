@@ -1,1 +1,1 @@
-# udemy_portfolio_project
+# Udemy capstone project 2 - Portfolio
